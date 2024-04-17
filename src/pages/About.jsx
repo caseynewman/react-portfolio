@@ -1,17 +1,16 @@
 export default function About() {
     return (
-      <div>
-        <h1>About Me</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
-      </div>
+        <div>
+            <h2>About</h2>
+            <div className="about-content">
+                <img id="headshot" src="src/assets/casey-newman.jpg" />
+                <p>
+                    I'm Casey—a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I'm currently working toward a technical certification in Full Stack Web Development from UNC Chapel Hill.
+
+                    With a background in both wellness and professional writing, I strive for a holistic approach to brand growth and sustainability through development, content, and design.
+                </p>
+            </div>
+
+        </div>
     );
-  }
-  
-// add image
+}
