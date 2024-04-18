@@ -1,21 +1,40 @@
+import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button, Text } from '@chakra-ui/react'
+
 export default function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio Page</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
-      </div>
+        <div>
+            <h1>Previous Work</h1>
+            <Card
+                direction={{ base: 'column', sm: 'row' }}
+                overflow='hidden'
+                variant='outline'
+            >
+                <Image
+                    objectFit='cover'
+                    maxW={{ base: '100%', sm: '350px' }}
+                    src='src/assets/weather-dashboard-screenshot.png'
+                    alt='Weather Dashboard'
+                />
+
+                <Stack>
+                    <CardBody>
+                        <Heading size='md'>Weather Dashboard</Heading>
+
+                        <Text py='2'>
+                            This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.
+                        </Text>
+                    </CardBody>
+
+                    <CardFooter className='project-footer'>
+                        <Button className='project-button' variant='solid' colorScheme='blue'>
+                            Visit Weather Dashboard
+                        </Button>
+                        <Button className='project-button' variant='solid' colorScheme='blue'>
+                            View GitHub Repo
+                        </Button>
+                    </CardFooter>
+                </Stack>
+            </Card>
+        </div>
     );
-  }
-  
+}

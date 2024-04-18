@@ -1,12 +1,11 @@
-import NavTabs from "./NavTabs";
+import Navigation from "./Navigation";
 
 export default function Header() {
   return (
     <>
-      <h1>Casey N. Newman</h1>
       <nav>
-        <img className="logo" src="src/assets/cn-logo.svg" />
-        <NavTabs />
+        <img className="logo" src="src/assets/cn-header-logo.svg" alt="Casey Newman"/>
+        <Navigation />
       </nav>
     </>
   );
