@@ -71,6 +71,11 @@ h1 {
 .project-button {
   font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  background-color: #ffddd1;
+}
+
+.project-button:hover {
+  background-color: #F15A22;
 }
 
 #headshot {

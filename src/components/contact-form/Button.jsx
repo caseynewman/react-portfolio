@@ -5,7 +5,7 @@ const Button = chakra(ChakraButton, {
         color: 'black',
         backgroundColor: '#ffbf34',
         borderRadius: '3',
-        border: '1px solid #888'
+        border: '1px solid #888',
     }
 })
 

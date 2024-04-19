@@ -38,12 +38,12 @@ const projectList = [
         id: 4,
     },
     {
-        title: 'Weather Dashboard',
-        blurb: 'This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.',
-        imagePath: 'src/assets/weather-dashboard-screenshot.png',
-        altText: 'Weather Dashboard',
-        projectLink: 'https://caseynewman.github.io/weather-dashboard/',
-        repoLink: 'https://github.com/caseynewman/weather-dashboard',
+        title: 'Work Day Scheduler',
+        blurb: `This application allows users to add and save daily to-do's. It's responsive with the current date and time, and has color-coded time blocks that clearly display past, current, and future events.`,
+        imagePath: 'src/assets/day-calendar-screenshot.png',
+        altText: 'Work Day Scheduler',
+        projectLink: 'https://caseynewman.github.io/day-calendar/',
+        repoLink: 'https://github.com/caseynewman/day-calendar',
         id: 5,
     },
     {
