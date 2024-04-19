@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Header from './components/header/Header';
-import Nav from './components/header/NavTabs';
+import Header from './components/site-header/Header';
 import './App.css'
 
 function App() {

@@ -31,76 +31,40 @@ const projectList = [
 ]
 
 export default function Project() {
-    
+
     return (
         <>
-            <Card
-                direction={{ base: 'column', sm: 'row' }}
-                overflow='hidden'
-                variant='outline'
-            >
-                <Image
-                    objectFit='cover'
-                    maxW={{ base: '100%', sm: '350px' }}
-                    src='src/assets/weather-dashboard-screenshot.png'
-                    alt='Weather Dashboard'
-                />
-
-                <Stack>
-                    <CardBody>
-                        <Heading className='project-title' size='md'>Weather Dashboard</Heading>
-
-                        <Text py='2'>
-                            This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.
-                        </Text>
-                    </CardBody>
-
-                    <CardFooter className='project-footer'>
-                        <Button className='project-button' variant='solid'>
-                            Visit Weather Dashboard
-                        </Button>
-                        <Button className='project-button' variant='outline'>
-                            View GitHub Repo
-                        </Button>
-                    </CardFooter>
-                </Stack>
-            </Card>
-
-
-            {/* {projectList.map((project, ) => (
-
+            {projectList.map((project) => (
+                <Card
+                    key={project.id}
+                    direction={{ base: 'column', sm: 'row' }}
+                    overflow='hidden'
+                    variant='outline'
+                >
+                    <Image
+                        objectFit='cover'
+                        maxW={{ base: '100%', sm: '350px' }}
+                        src={project.imagePath}
+                        alt={project.altText}
+                    />
+                    <Stack>
+                        <CardBody>
+                            <Heading className='project-title' size='md'>{project.title}</Heading>
+                            <Text py='2'>
+                                {project.blurb}
+                            </Text>
+                        </CardBody>
+                        <CardFooter className='project-footer'>
+                            <Button className='project-button' variant='solid' href={project.projectLink}>
+                                Visit {project.title}
+                            </Button>
+                            <Button className='project-button' variant='outline' href={project.repoLink}>
+                                View GitHub Repo
+                            </Button>
+                        </CardFooter>
+                    </Stack>
+                </Card>
             ))}
-            <Card
-                direction={{ base: 'column', sm: 'row' }}
-                overflow='hidden'
-                variant='outline'
-            >
-                <Image
-                    objectFit='cover'
-                    maxW={{ base: '100%', sm: '350px' }}
-                    src='src/assets/weather-dashboard-screenshot.png'
-                    alt='Weather Dashboard'
-                />
-
-                <Stack>
-                    <CardBody>
-                        <Heading className='project-title' size='md'>{projectList.title}</Heading>
-
-                        <Text py='2'>
-                            {projectList.blurb}
-                        </Text>
-                    </CardBody>
-
-                    <CardFooter className='project-footer'>
-                        <Button className='project-button' variant='solid'>
-                            Visit Weather Dashboard
-                        </Button>
-                        <Button className='project-button' variant='outline'>
-                            View GitHub Repo
-                        </Button>
-                    </CardFooter>
-                </Stack>
-            </Card> */}
         </>
     );
 }
