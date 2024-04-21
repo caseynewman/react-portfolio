@@ -54,7 +54,7 @@ const Form = () => {
                             defaultValue={formValues.message}
                         />
                     </Stack>
-                    <Button type='submit'>Submit Form</Button>
+                    <button className="submit-form" type='submit'>Submit Form</button>
                 </form>
             </CardBody>
         </Card>

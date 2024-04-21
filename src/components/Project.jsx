@@ -67,8 +67,9 @@ export default function Project() {
                     direction={{ base: 'column', sm: 'row' }}
                     overflow='hidden'
                     variant='outline'
-                    marginTop={2}
-                    marginBottom={2}
+                    marginTop={5}
+                    marginBottom={5}
+                    borderRadius={7}
                 >
                     <Image
                         objectFit='cover'
@@ -78,18 +79,18 @@ export default function Project() {
                     />
                     <Stack>
                         <CardBody>
-                            <Heading className='project-title' size='md'>{project.title}</Heading>
+                            <h2 className='project-title' size='md'>{project.title}</h2>
                             <Text py='2'>
                                 {project.blurb}
                             </Text>
                         </CardBody>
                         <CardFooter className='project-footer'>
-                            <Button className='project-button' variant='solid' href={project.projectLink}>
+                            <button className='project-button' variant='solid' href={project.projectLink}>
                                 Visit {project.title}
-                            </Button>
-                            <Button className='project-button' variant='outline' href={project.repoLink}>
+                            </button>
+                            <button className='project-button' variant='outline' href={project.repoLink}>
                                 View GitHub Repo
-                            </Button>
+                            </button>
                         </CardFooter>
                     </Stack>
                 </Card>

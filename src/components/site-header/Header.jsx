@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 
 export default function Header() {
   return (
     <>
       <nav>
-        <img className="logo" src="src/assets/cn-header-logo.svg" alt="Casey Newman"/>
+        <Link to="/">
+          <img className="logo" src="src/assets/cn-header-logo.svg" alt="Casey Newman" />
+        </Link>
         <Navigation />
       </nav>
     </>

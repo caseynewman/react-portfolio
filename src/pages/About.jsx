@@ -8,12 +8,13 @@ export default function About() {
                 <Center>
                     <Image
                         borderRadius='full'
-                        boxSize='150px'
+                        boxSize='250px'
+                        padding={5}
                         src='src/assets/casey-newman.jpg'
                         alt='Casey Newman'
                     />
                 </Center>
-                <p>
+                <p className='about-info'>
                     I'm Casey—a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I'm currently working toward a technical certification in Full Stack Web Development from UNC Chapel Hill.
 
                     With a background in both wellness and professional writing, I strive for a holistic approach to brand growth and sustainability through development, content, and design.
