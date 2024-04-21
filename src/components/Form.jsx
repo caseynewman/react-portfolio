@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Card, CardBody } from "@chakra-ui/react"
-import Button from './Button'
 import { Input as ChakraInput, Stack, Textarea } from '@chakra-ui/react'
 
 const Form = () => {
