@@ -5,7 +5,7 @@ export default function Footer() {
         <>
             <div className="footer-links">
                 <Link to="/">
-                    <img className="footer-logo" src="public/assets/cn-logo.svg" alt="Casey Newman" />
+                    <img className="footer-logo" src="/assets/cn-logo.svg" alt="Casey Newman" />
                 </Link>
                 <Link className="icon" to="https://github.com/caseynewman">
                     <img src="/assets/icons/github-mark.svg" alt="GitHub Profile" />
