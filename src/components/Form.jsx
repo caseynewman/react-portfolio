@@ -16,8 +16,13 @@ const Form = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert()
-        //check validity
+        const emailRegex = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (!emailRegex.test(formValues.email)) {
+            setIsError(true);
+            return;
+        }
+        setIsError(false);
+        setIsSuccess(true);
     };
 
     const handleNameBlur = () => {
@@ -82,6 +87,8 @@ const Form = () => {
                         />
                         {messageClicked && formValues.message.trim() === '' && <p>Message is required!</p>}
                     </Stack>
+                    {isError && <p>Please enter a valid email address!</p>}
+                    {isSuccess && <p>Form submitted successfully!</p>}
                     <button className="submit-form" type='submit'>Submit Form</button>
                 </form>
             </CardBody>
