@@ -66,6 +66,7 @@ const Form = () => {
                         <ChakraInput
                             id='name'
                             placeholder='Enter your name'
+                            borderRadius={0}
                             defaultValue={formValues.name}
                             onChange={(event) => setEmail(event.target.value)}
                             onBlur={handleNameBlur}
@@ -75,6 +76,7 @@ const Form = () => {
                         <ChakraInput
                             id='email'
                             placeholder='Enter your email address'
+                            borderRadius={0}
                             defaultValue={formValues.email}
                             onChange={(event) => setEmail(event.target.value)}
                             onBlur={handleEmailBlur}
@@ -84,6 +86,7 @@ const Form = () => {
                         <Textarea
                             id='message'
                             placeholder='Enter your message here'
+                            borderRadius={0}
                             defaultValue={formValues.message}
                             onChange={(event) => setEmail(event.target.value)}
                             onBlur={handleMessageBlur}
