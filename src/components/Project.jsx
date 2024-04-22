@@ -49,7 +49,7 @@ const projectList = [
     {
         title: 'Note Taker App',
         blurb: 'This application uses Express, allowing users to write, edit, save and delete notes.',
-        imagePath: 'src/assets/weather-dashboard-screenshot.png',
+        imagePath: 'src/assets/note-taker.png',
         altText: 'Note Taker App',
         projectLink: 'https://young-wildwood-60197-c36532e321be.herokuapp.com/',
         repoLink: 'https://github.com/caseynewman/note-taker-app',
