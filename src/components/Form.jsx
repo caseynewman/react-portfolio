@@ -10,7 +10,9 @@ const Form = () => {
         email: '',
         message: '',
     });
+    const [nameClicked, setNameClicked] = useState(false);
     const [emailClicked, setEmailClicked] = useState(false);
+    const [messageClicked, setMessageClicked] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -18,9 +20,21 @@ const Form = () => {
         //check validity
     };
 
+    const handleNameBlur = () => {
+        if (formValues.name.trim() === '') {
+            setNameClicked(true);
+        }
+    };
+
     const handleEmailBlur = () => {
         if (formValues.email.trim() === '') {
             setEmailClicked(true);
+        }
+    };
+
+    const handleMessageBlur = () => {
+        if (formValues.message.trim() === '') {
+            setMessageClicked(true);
         }
     };
 
@@ -45,23 +59,28 @@ const Form = () => {
                             id='name'
                             placeholder='Enter your name'
                             defaultValue={formValues.name}
+                            onChange={(event) => setEmail(event.target.value)}
+                            onBlur={handleNameBlur}
                         />
+                        {nameClicked && formValues.name.trim() === '' && <p>Name is required!</p>}
                         <label htmlFor='email'>Email</label>
                         <ChakraInput
                             id='email'
                             placeholder='Enter your email address'
                             defaultValue={formValues.email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            onChange={(event) => setEmail(event.target.value)}
                             onBlur={handleEmailBlur}
                         />
                         {emailClicked && formValues.email.trim() === '' && <p>Email is required!</p>}
-
                         <label htmlFor='message'>Message</label>
                         <Textarea
                             id='message'
                             placeholder='Enter your message here'
                             defaultValue={formValues.message}
+                            onChange={(event) => setEmail(event.target.value)}
+                            onBlur={handleMessageBlur}
                         />
+                        {messageClicked && formValues.message.trim() === '' && <p>Message is required!</p>}
                     </Stack>
                     <button className="submit-form" type='submit'>Submit Form</button>
                 </form>
