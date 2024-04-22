@@ -98,7 +98,14 @@ h1 {
   border: 1px solid #000;
   width: 250px;
   height: 40px;
+}
+
+.project-button {
   margin: 5px;
+}
+
+.submit-form {
+  margin-top: 20px;
 }
 
 .project-button:hover {
@@ -132,4 +139,9 @@ footer {
 
 .about-info {
   background-color: #ffffffa3;
+}
+
+label {
+  text-align: left;
+  margin-top: 10px;
 }
