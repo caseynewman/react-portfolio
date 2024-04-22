@@ -1,6 +1,6 @@
 .about-info {
     display: flex;
-    align-items: center;
+    align-items: space-evenly;
     min-width: 300px;
     background-color: #f4f0ec;
 }
