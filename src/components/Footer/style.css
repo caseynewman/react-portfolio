@@ -1,0 +1,24 @@
+footer {
+    font-size: .8em;
+    text-transform: uppercase;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.footer-logo {
+    max-width: 75px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.icon {
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

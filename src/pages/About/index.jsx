@@ -1,4 +1,5 @@
 import { Center, Image } from '@chakra-ui/react'
+import './style.css'
 
 export default function About() {
     return (

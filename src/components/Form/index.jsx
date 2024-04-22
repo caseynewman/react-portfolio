@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Card, CardBody } from "@chakra-ui/react"
 import { Input as ChakraInput, Stack, Textarea } from '@chakra-ui/react'
+import './style.css'
 
 const Form = () => {
     const [isSuccess, setIsSuccess] = useState(false);
@@ -44,10 +45,7 @@ const Form = () => {
     };
 
     return (
-        <Card
-            maxW={800}
-            
-            >
+        <Card className='contact-form'>
             <CardBody backgroundColor={'#f4f0ec'}>
                 <form onSubmit={handleSubmit}
                     onChange={(event) => {

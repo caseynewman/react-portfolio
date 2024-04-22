@@ -1,4 +1,5 @@
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button, Text } from '@chakra-ui/react'
+import './style.css'
 
 const projectList = [
     {

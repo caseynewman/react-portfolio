@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    max-width: 50%;
+    max-height: auto;
+    display: flex;
+    align-self: center;
+}

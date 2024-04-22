@@ -1,0 +1,14 @@
+.contact-form {
+    min-width: 345px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .contact-form {
+        width: 800px;
+    }
+}
