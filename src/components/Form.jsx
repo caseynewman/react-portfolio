@@ -3,20 +3,26 @@ import { Card, CardBody } from "@chakra-ui/react"
 import { Input as ChakraInput, Stack, Textarea } from '@chakra-ui/react'
 
 const Form = () => {
-
     const [isSuccess, setIsSuccess] = useState(false);
     const [isError, setIsError] = useState(false);
     const [formValues, setFormValues] = useState({
         name: '',
         email: '',
         message: '',
-    })
+    });
+    const [emailClicked, setEmailClicked] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
         alert()
         //check validity
-    }
+    };
+
+    const handleEmailBlur = () => {
+        if (formValues.email.trim() === '') {
+            setEmailClicked(true);
+        }
+    };
 
     return (
         <Card>
@@ -32,7 +38,7 @@ const Form = () => {
                         })
                         console.log(formValues)
                     }}
-                    >
+                >
                     <Stack spacing={2}>
                         <label htmlFor='name'>Name</label>
                         <ChakraInput
@@ -45,7 +51,11 @@ const Form = () => {
                             id='email'
                             placeholder='Enter your email address'
                             defaultValue={formValues.email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            onBlur={handleEmailBlur}
                         />
+                        {emailClicked && formValues.email.trim() === '' && <p>Email is required!</p>}
+
                         <label htmlFor='message'>Message</label>
                         <Textarea
                             id='message'
