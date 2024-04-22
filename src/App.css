@@ -178,6 +178,7 @@ label {
   .project-container {
     display: flex;
     justify-content: space-between;
+    max-width: 1100px;
   }
 
   .project-body {

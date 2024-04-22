@@ -44,7 +44,10 @@ const Form = () => {
     };
 
     return (
-        <Card>
+        <Card
+            maxW={800}
+            
+            >
             <CardBody>
                 <form onSubmit={handleSubmit}
                     onChange={(event) => {
