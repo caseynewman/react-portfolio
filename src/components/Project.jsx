@@ -4,7 +4,7 @@ const projectList = [
     {
         title: 'Weather Dashboard',
         blurb: 'This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.',
-        imagePath: 'public/assets/weather-dashboard-screenshot.png',
+        imagePath: '/assets/weather-dashboard-screenshot.png',
         altText: 'Weather Dashboard',
         projectLink: 'https://caseynewman.github.io/weather-dashboard/',
         repoLink: 'https://github.com/caseynewman/weather-dashboard',
@@ -13,7 +13,7 @@ const projectList = [
     {
         title: 'Quick Chef App',
         blurb: `This full-stack application uses the Spoonacular API to retrieve and display recipe information matching a user's specific criteria. They can save favorite recipes, make notes about each, and create a weekly meal plan using those favorites.`,
-        imagePath: 'public/assets/quick-chef-website.png',
+        imagePath: '/assets/quick-chef-website.png',
         altText: 'Quick Chef App',
         projectLink: 'https://quick-chef-app.onrender.com/',
         repoLink: 'https://github.com/caseynewman/quick-chef-app',
@@ -22,7 +22,7 @@ const projectList = [
     {
         title: 'Quiet Soul',
         blurb: `This full-stack application offers a library of meditations for users to choose from. They can update and save their profile information, including a weekly meditation goal. The app logs users' listen time, tracking the progress they've made toward their goal.`,
-        imagePath: 'public/assets/quiet-soul-homepage.png',
+        imagePath: '/assets/quiet-soul-homepage.png',
         altText: 'Quiet Soul',
         projectLink: 'https://fathomless-garden-22238-8788b79a83a2.herokuapp.com/login',
         repoLink: 'https://github.com/rbenjamin4/meditation-app',
@@ -31,7 +31,7 @@ const projectList = [
     {
         title: 'Code Quiz',
         blurb: `This application uses JavaScript to test the user's knowledge of web development by dynamically adding content to the page for each question and indicating whether or not it's answered correctly. The quiz is timed and scores are stored locally.`,
-        imagePath: 'public/assets/code-quiz-screenshot.png',
+        imagePath: '/assets/code-quiz-screenshot.png',
         altText: 'Code Quiz',
         projectLink: 'https://caseynewman.github.io/code-quiz/',
         repoLink: 'https://github.com/caseynewman/code-quiz',
@@ -40,7 +40,7 @@ const projectList = [
     {
         title: 'Work Day Scheduler',
         blurb: `This application allows users to add and save daily to-do's. It's responsive with the current date and time, and has color-coded time blocks that clearly display past, current, and future events.`,
-        imagePath: 'public/assets/day-calendar-screenshot.png',
+        imagePath: '/assets/day-calendar-screenshot.png',
         altText: 'Work Day Scheduler',
         projectLink: 'https://caseynewman.github.io/day-calendar/',
         repoLink: 'https://github.com/caseynewman/day-calendar',
@@ -49,7 +49,7 @@ const projectList = [
     {
         title: 'Note Taker App',
         blurb: 'This application uses Express, allowing users to write, edit, save and delete notes.',
-        imagePath: 'public/assets/note-taker.png',
+        imagePath: '/assets/note-taker.png',
         altText: 'Note Taker App',
         projectLink: 'https://young-wildwood-60197-c36532e321be.herokuapp.com/',
         repoLink: 'https://github.com/caseynewman/note-taker-app',
@@ -70,6 +70,8 @@ export default function Project() {
                     marginTop={5}
                     marginBottom={5}
                     borderRadius={0}
+                    backgroundColor={'#f4f0ec'}
+                    align={'center'}
                 >
                     <Image
                         className='project-image'

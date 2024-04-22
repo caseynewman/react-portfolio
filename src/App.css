@@ -9,7 +9,8 @@ body {
   font-size: 15px;
   letter-spacing: 1px;
   margin-top: 10px;
-  background-color: #f8f8d4;
+  /* background-color: #f8f8d4; */
+  background-color: #fff;
 }
 
 main {
@@ -98,7 +99,7 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: .9em;
-  border-radius: 10px;
+  border-radius: 0px;
   border: 1px solid #000;
   width: 250px;
   height: 40px;
@@ -145,7 +146,7 @@ footer {
   display: flex;
   align-items: center;
   min-width: 300px;
-  background-color: #ffffffa3;
+  background-color: #f4f0ec;
 }
 
 label {

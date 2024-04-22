@@ -48,7 +48,7 @@ const Form = () => {
             maxW={800}
             
             >
-            <CardBody>
+            <CardBody backgroundColor={'#f4f0ec'}>
                 <form onSubmit={handleSubmit}
                     onChange={(event) => {
                         console.log(formValues)

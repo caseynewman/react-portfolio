@@ -10,7 +10,7 @@ export default function About() {
                         borderRadius='full'
                         boxSize='250px'
                         padding={5}
-                        src='public/assets/casey-newman.jpg'
+                        src='/assets/casey-newman.jpg'
                         alt='Casey Newman'
                     />
                 </Center>
