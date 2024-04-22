@@ -7,6 +7,11 @@ form textarea {
     margin-bottom: 10px;
 }
 
+form p {
+    padding: 0;
+    margin: 0;
+}
+
 @media screen and (min-width: 800px) {
     .contact-form {
         width: 800px;
