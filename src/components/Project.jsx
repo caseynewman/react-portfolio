@@ -62,22 +62,24 @@ export default function Project() {
     return (
         <>
             {projectList.map((project) => (
-                <Card
+                <Card className='project-container'
                     key={project.id}
                     direction={{ base: 'column', sm: 'row' }}
                     overflow='hidden'
                     variant='outline'
                     marginTop={5}
                     marginBottom={5}
-                    borderRadius={7}
+                    borderRadius={0}
                 >
                     <Image
+                        className='project-image'
                         objectFit='cover'
-                        maxW={{ base: '100%', sm: '350px' }}
+                        boxSize={400}
+                        maxW={{ base: '100%', sm: '400px' }}
                         src={project.imagePath}
                         alt={project.altText}
                     />
-                    <Stack>
+                    <Stack className='project-body'>
                         <CardBody>
                             <h2 className='project-title' size='md'>{project.title}</h2>
                             <Text py='2'>
