@@ -30,7 +30,7 @@ const projectList = [
     },
     {
         title: 'Code Quiz',
-        blurb: 'This application uses JavaScript to ',
+        blurb: `This application uses JavaScript to test the user's knowledge of web development by dynamically adding content to the page for each question and indicating whether or not it's answered correctly. The quiz is timed and scores are stored locally.`,
         imagePath: 'src/assets/code-quiz-screenshot.png',
         altText: 'Code Quiz',
         projectLink: 'https://caseynewman.github.io/code-quiz/',
@@ -47,12 +47,12 @@ const projectList = [
         id: 5,
     },
     {
-        title: 'Weather Dashboard',
-        blurb: 'This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.',
+        title: 'Note Taker App',
+        blurb: 'This application uses Express, allowing users to write, edit, save and delete notes.',
         imagePath: 'src/assets/weather-dashboard-screenshot.png',
-        altText: 'Weather Dashboard',
-        projectLink: 'https://caseynewman.github.io/weather-dashboard/',
-        repoLink: 'https://github.com/caseynewman/weather-dashboard',
+        altText: 'Note Taker App',
+        projectLink: 'https://young-wildwood-60197-c36532e321be.herokuapp.com/',
+        repoLink: 'https://github.com/caseynewman/note-taker-app',
         id: 6,
     },
 ]
