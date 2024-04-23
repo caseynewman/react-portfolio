@@ -8,7 +8,6 @@ function App() {
     <>
       <header>
         <Header />
-        {/* name, about me, portfolio, contact, resume // current section title highlighted */}
       </header>
       <main>
         <Outlet />
