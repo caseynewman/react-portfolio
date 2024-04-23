@@ -9,7 +9,7 @@ I built this application to showcase some of the work I've done and favorite pro
 
 Please feel free to navigate through my portfolio in whatever way you'd like. Previous work that I'm particularly proud of is displayed on the Portfolio page. Each project has a link to the deployed site as well as to my GitHub repo. View some of my skills and proficiencies on the Resume page, and download my full resume for more information. If you'd like to contact me, you can do so through the Contact page.
 
-![alt text](/assets/casey-newman-portfolio.png)
+![Casey Newman Portfolio](/assets/casey-newman-portfolio.png)
 
 ## Credits
 

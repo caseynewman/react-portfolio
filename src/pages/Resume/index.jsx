@@ -20,7 +20,7 @@ export default function Resume() {
         </ul>
         <p>Check out my resume for more information!</p>
         <button>
-          <a href='https://drive.google.com/file/d/1T-97yjTc2cGp9MyXXmhpe2321ndl60Pj/view?usp=sharing' target='_blank'>Download Resume</a>
+          <a href='/assets/casey-newman-resume.png' target='_blank'>Download Resume</a>
         </button>
       </div>
     </div>
