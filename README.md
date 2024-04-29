@@ -10,6 +10,7 @@ I built this application to showcase some of the work I've done and favorite pro
 Please feel free to navigate through my portfolio in whatever way you'd like. Previous work that I'm particularly proud of is displayed on the Portfolio page. Each project has a link to the deployed site as well as to my GitHub repo. View some of my skills and proficiencies on the Resume page, and download my full resume for more information. If you'd like to contact me, you can do so through the Contact page.
 
 ![Casey Newman Portfolio](public/assets/casey-newman-portfolio.png)
+[Deployed Application](https://gentle-concha-505d56.netlify.app/)
 
 ## Credits
 
