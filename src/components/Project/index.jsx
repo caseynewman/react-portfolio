@@ -99,12 +99,12 @@ export default function Project() {
                             </Text>
                         </CardBody>
                         <CardFooter className='project-footer'>
-                            <button className='project-button' variant='solid' href={project.projectLink}>
+                            <a className='project-button' variant='solid' href={project.projectLink} target="_blank">
                                 Visit {project.title}
-                            </button>
-                            <button className='project-button' variant='outline' href={project.repoLink}>
+                            </a>
+                            <a className='project-button' variant='outline' href={project.repoLink} target="_blank">
                                 View GitHub Repo
-                            </button>
+                            </a>
                         </CardFooter>
                     </Stack>
                 </Card>
