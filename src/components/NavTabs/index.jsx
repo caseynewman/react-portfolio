@@ -22,14 +22,14 @@ function NavTabs() {
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/contact"
           className={currentPage === '/contact' ? 'nav-link-active' : 'nav-link'}
         >
           Contact
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/resume"

@@ -14,9 +14,6 @@ export default function Footer() {
                 <Link className="icon" to="https://www.linkedin.com/in/caseynewman/">
                     <img src="/assets/icons/linkedin-icon.svg" alt="LinkedIn Profile" />
                 </Link>
-                <Link className="icon" to="https://www.youtube.com/@caseynewmanyoga">
-                    <img src="/assets/icons/youtube-icon.svg" alt="YouTube Channel" />
-                </Link>
             </div>
         </>
     );
