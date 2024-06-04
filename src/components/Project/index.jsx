@@ -3,13 +3,22 @@ import './style.css'
 
 const projectList = [
     {
+        title: 'Bubble App',
+        blurb: 'This is a full stack social media app emphasizing minimilistic functionality and expression.',
+        imagePath: '/assets/bubble-app.png',
+        altText: 'Bubble App',
+        projectLink: 'https://bubblesocial.netlify.app/',
+        repoLink: 'https://github.com/cspecialblackberry/Bubble_App',
+        id: 1,
+    },
+    {
         title: 'Weather Dashboard',
         blurb: 'This application uses the OpenWeather API to retrieve and display weather information from any city in the world. Recently searched cities are stored locally.',
         imagePath: '/assets/weather-dashboard-screenshot.png',
         altText: 'Weather Dashboard',
         projectLink: 'https://caseynewman.github.io/weather-dashboard/',
         repoLink: 'https://github.com/caseynewman/weather-dashboard',
-        id: 1,
+        id: 2,
     },
     {
         title: 'Quick Chef App',
@@ -18,7 +27,7 @@ const projectList = [
         altText: 'Quick Chef App',
         projectLink: 'https://quick-chef-app.onrender.com/',
         repoLink: 'https://github.com/caseynewman/quick-chef-app',
-        id: 2,
+        id: 3,
     },
     {
         title: 'Quiet Soul',
@@ -27,7 +36,7 @@ const projectList = [
         altText: 'Quiet Soul',
         projectLink: 'https://fathomless-garden-22238-8788b79a83a2.herokuapp.com/login',
         repoLink: 'https://github.com/rbenjamin4/meditation-app',
-        id: 3,
+        id: 4,
     },
     {
         title: 'Code Quiz',
@@ -36,7 +45,7 @@ const projectList = [
         altText: 'Code Quiz',
         projectLink: 'https://caseynewman.github.io/code-quiz/',
         repoLink: 'https://github.com/caseynewman/code-quiz',
-        id: 4,
+        id: 5,
     },
     {
         title: 'Work Day Scheduler',
@@ -45,7 +54,7 @@ const projectList = [
         altText: 'Work Day Scheduler',
         projectLink: 'https://caseynewman.github.io/day-calendar/',
         repoLink: 'https://github.com/caseynewman/day-calendar',
-        id: 5,
+        id: 6,
     },
     {
         title: 'Note Taker App',
@@ -54,7 +63,7 @@ const projectList = [
         altText: 'Note Taker App',
         projectLink: 'https://young-wildwood-60197-c36532e321be.herokuapp.com/',
         repoLink: 'https://github.com/caseynewman/note-taker-app',
-        id: 6,
+        id: 7,
     },
 ]
 
