@@ -1,3 +1,4 @@
+import MyButton from '../../components/Button';
 import './style.css'
 
 export default function Resume() {
@@ -19,9 +20,9 @@ export default function Resume() {
           <li>MongoDB</li>
         </ul>
         <p>Check out my resume for more information!</p>
-        <button>
+        <MyButton>
           <a href='/assets/casey-newman-resume.png' target='_blank'>Download Resume</a>
-        </button>
+        </MyButton>
       </div>
     </div>
   );
