@@ -1,0 +1,19 @@
+.my-button {
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #ffddd1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    border-radius: 0px;
+    border: 1px solid #000;
+    width: 250px;
+    height: 40px;
+  }
+  
+.my-button:hover {
+    background-color: #DDF638;
+    font-weight: bold;
+  }

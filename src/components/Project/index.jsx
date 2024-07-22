@@ -100,14 +100,12 @@ export default function Project() {
                             </Text>
                         </CardBody>
                         <CardFooter className='project-footer'>
-                            <a className='project-button' variant='solid' href={project.projectLink} target="_blank">
+                            <MyButton href={project.projectLink} target="_blank">
                                 Visit {project.title}
-                            </a>
-                            {/* <a className='project-button' variant='outline' href={project.repoLink} target="_blank"> */}
-                            <MyButton>
+                            </MyButton>
+                            <MyButton href={project.repoLink} target="_blank">
                                 View GitHub Repo
                             </MyButton>
-                            {/* </a> */}
                         </CardFooter>
                     </Stack>
                 </Card>
