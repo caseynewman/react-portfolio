@@ -1,4 +1,5 @@
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button, Text } from '@chakra-ui/react'
+import MyButton from '../Button'
 import './style.css'
 
 const projectList = [
@@ -102,9 +103,11 @@ export default function Project() {
                             <a className='project-button' variant='solid' href={project.projectLink} target="_blank">
                                 Visit {project.title}
                             </a>
-                            <a className='project-button' variant='outline' href={project.repoLink} target="_blank">
+                            {/* <a className='project-button' variant='outline' href={project.repoLink} target="_blank"> */}
+                            <MyButton>
                                 View GitHub Repo
-                            </a>
+                            </MyButton>
+                            {/* </a> */}
                         </CardFooter>
                     </Stack>
                 </Card>
