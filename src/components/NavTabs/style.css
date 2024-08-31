@@ -11,7 +11,7 @@
 .nav-tabs a:hover,
 .nav-link-active {
     font-weight: bold;
-    background-color: #DDF638;
+    background-color: #F0FFA6;
 }
 
 @media screen and (min-width: 800px) {

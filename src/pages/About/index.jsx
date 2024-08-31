@@ -4,7 +4,7 @@ import './style.css'
 export default function About() {
     return (
         <div>
-            <h1>About Casey</h1>
+            <h1>hi, I'm Casey</h1>
             <div className="about-content">
                 <Center>
                     <Image

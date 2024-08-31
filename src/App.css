@@ -9,8 +9,8 @@ html, body {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: lighter;
+  font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+  /* font-weight: lighter; */
   font-size: 15px;
   letter-spacing: 1px;
   margin: 0;
@@ -46,9 +46,11 @@ a {
 }
 
 h1 {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-size: 2.3em;
-  text-transform: uppercase;
+  font-family: 'Dream Cottage';
+  font-weight: 200;
+  font-size: 2.8em;
+  letter-spacing: -.5px;
+  text-transform: none;
   margin-top: 20px;
   margin-bottom: 10px;
 }
