@@ -17,5 +17,6 @@
 
 .my-button:hover {
     background-color: #F0FFA6;
+    transition: .5s;
     font-weight: 400;
 }
