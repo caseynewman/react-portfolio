@@ -81,6 +81,7 @@ export default function Project() {
                     marginTop={5}
                     marginBottom={5}
                     borderRadius={0}
+                    border={'1px solid #000'}
                     backgroundColor={'#f4f0ec'}
                     align={'center'}
                 >
