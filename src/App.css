@@ -4,13 +4,13 @@
 
 html, body {
   height: 100%;
-  background-color: #fff;
+  background-color: #fefbf8;
   color: #000;
 }
 
 body {
   font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
-  /* font-weight: lighter; */
+  font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
   margin: 0;

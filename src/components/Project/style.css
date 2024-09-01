@@ -5,6 +5,7 @@
 
 .project-image {
     max-height: 300px;
+    border: 1px solid #000;
 }
 
 .project-footer {

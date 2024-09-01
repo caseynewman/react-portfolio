@@ -4,7 +4,7 @@ import './style.css'
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1>resume</h1>
       <div className="resume-content">
         <h2>Skills + Proficiencies</h2>
         <ul>

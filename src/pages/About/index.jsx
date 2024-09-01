@@ -16,7 +16,7 @@ export default function About() {
                     />
                 </Center>
                 <p className='about-info'>
-                    I'm Casey—a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I also have a technical certification in Full Stack Web Development from UNC Chapel Hill.
+                    I'm a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I also have a technical certification in Full Stack Web Development from UNC Chapel Hill.
                     <br /><br />
                     With a background in both wellness and professional writing, I strive for a holistic approach to brand growth and sustainability through development, content, and design.
                 </p>
