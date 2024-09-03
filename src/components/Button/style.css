@@ -2,7 +2,7 @@
     font-family: Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background-color: #FD89EA;
+    background-color: #CBDA67;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .my-button:hover {
-    background-color: #F0FFA6;
+    background-color: #EBE774;
     transition: .5s;
     font-weight: 400;
 }

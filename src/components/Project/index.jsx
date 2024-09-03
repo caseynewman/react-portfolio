@@ -81,8 +81,8 @@ export default function Project() {
                     marginTop={5}
                     marginBottom={5}
                     borderRadius={0}
-                    border={'1px solid #000'}
-                    backgroundColor={'#f4f0ec'}
+                    border={'1px solid #F5CAE9'}
+                    backgroundColor={'#fffaf5'}
                     align={'center'}
                 >
                     <Image

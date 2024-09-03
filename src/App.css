@@ -4,7 +4,7 @@
 
 html, body {
   height: 100%;
-  background-color: #fefbf8;
+  background-color: #FEF7EE;
   color: #000;
 }
 
@@ -53,6 +53,7 @@ h1 {
   text-transform: none;
   margin-top: 20px;
   margin-bottom: 10px;
+  color: #F27202;
 }
 
 h2 {

@@ -2,8 +2,8 @@
     display: flex;
     align-items: space-evenly;
     min-width: 300px;
-    background-color: #f4f0ec;
-    border: 1px solid #000;
+    background-color: #fffaf5;
+    border: 1px solid #F5CAE9;
     padding: 40px;
     margin: 0px;
 }
