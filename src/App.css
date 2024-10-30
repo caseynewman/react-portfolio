@@ -4,7 +4,12 @@
 
 html, body {
   height: 100%;
-  background-color: #FEF7EE;
+  /* background-color: #FEF7EE; */
+  background-image: radial-gradient(
+    circle farthest-side at 500px 100px,
+    #e9e2fd 0%,
+    transparent 100%
+  );
   color: #000;
 }
 
