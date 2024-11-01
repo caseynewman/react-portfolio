@@ -6,14 +6,15 @@ nav {
 }
 
 .logo {
-    max-width: 50%;
+    max-width: 25%;
     max-height: auto;
     display: flex;
     align-self: center;
 }
 
-/* @media screen and (min-width: 800px) {
-    .logo {
-        width: 200px;
+@media screen and (min-width: 800px) {
+    .logo img {
+        width: 350px;
+        height: auto;
     }
-} */
+}

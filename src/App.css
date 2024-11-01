@@ -17,7 +17,7 @@ body {
 }
 
 body {
-  font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
@@ -41,7 +41,7 @@ main {
 }
 
 p {
-  font-family: 'Hanken Grotesk', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
   padding: 15px;
@@ -61,7 +61,7 @@ h1 {
   text-transform: none;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #F27202;
+  color: #1e1c1d;
 }
 
 h2 {
@@ -76,7 +76,7 @@ label {
 }
 
 ::placeholder {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-size: .9em
 }
 
