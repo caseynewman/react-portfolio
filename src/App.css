@@ -11,9 +11,9 @@ body {
 .gradient {
   height: 100vh;
   width: 100%;
-  background-image: radial-gradient(circle farthest-side at var(--x, 150px) var(--y, 100px),
+  background-image: radial-gradient(circle farthest-side at 100px 330px,
       #e9e2fd 0%,
-      transparent 50%);
+      transparent 70%);
 }
 
 body {
@@ -83,4 +83,14 @@ label {
 img {
   width: 100%;
   display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .gradient {
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(circle farthest-side at var(--x, 150px) var(--y, 100px),
+        #e9e2fd 0%,
+        transparent 50%);
+  }
 }
