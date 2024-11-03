@@ -1,0 +1,19 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

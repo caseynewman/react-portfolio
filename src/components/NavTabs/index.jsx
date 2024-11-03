@@ -8,8 +8,8 @@ function NavTabs() {
     <ul className="nav-tabs">
       <li className="nav-item">
         <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link-active' : 'nav-link'}
+          to="/about"
+          className={currentPage === '/about' ? 'nav-link-active' : 'nav-link'}
         >
           About
         </Link>
