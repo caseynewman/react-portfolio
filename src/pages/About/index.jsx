@@ -3,7 +3,7 @@ import './style.css'
 
 export default function About() {
     return (
-        <div>
+        <section className='about'>
             <h1>hey there, I'm Casey</h1>
             <div className="about-content">
                 <Center>
@@ -22,6 +22,6 @@ export default function About() {
                 </p>
             </div>
 
-        </div>
+        </section>
     );
 }

@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Resume() {
   return (
-    <div>
+    <section className='resume'>
       <h1>resume</h1>
       <div className="resume-content">
         <h2>Skills + Proficiencies</h2>
@@ -24,6 +24,6 @@ export default function Resume() {
           <a href='/assets/casey-newman-resume.png' target='_blank'>Download Resume</a>
         </MyButton>
       </div>
-    </div>
+    </section>
   );
 }

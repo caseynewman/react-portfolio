@@ -2,9 +2,9 @@ import Project from '../../components/Project';
 
 export default function Portfolio() {
     return (
-        <div>
+        <section className='portfolio'>
             <h1>previous work</h1>
                 <Project />
-        </div>
+        </section>
     );
 }

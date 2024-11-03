@@ -72,6 +72,11 @@ h2 {
   font-weight: bold;
 }
 
+section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 label {
   text-align: left;
   margin-top: 10px;
