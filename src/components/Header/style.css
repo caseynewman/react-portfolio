@@ -3,8 +3,13 @@ header {
     flex-direction: column-reverse;
 }
 
+.header {
+    visibility: hidden;
+}
+
 .header.sticky {
     position: fixed;
+    visibility: inherit;
     top: 0;
     width: 100%;
     z-index: 1;
