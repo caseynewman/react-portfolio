@@ -5,6 +5,7 @@
     text-align: center;
     justify-content: center;
     margin: 0px;
+    border-bottom: 1.3px solid #1e1c1d;
 }
 
 .hero h1 {
