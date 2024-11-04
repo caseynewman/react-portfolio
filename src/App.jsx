@@ -28,7 +28,7 @@ function App() {
     <>
     <div ref={bgRef} className='gradient'>
       <header>
-        {/* <Header /> */}
+        <Header />
       </header>
       <main>
         <Outlet />
