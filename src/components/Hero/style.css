@@ -18,6 +18,7 @@
 .hero h2 {
     font-size: 22px;
     text-transform: uppercase;
+    font-weight: 300;
     letter-spacing: 3px;
     margin: 10px;
 }
