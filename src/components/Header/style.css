@@ -4,7 +4,7 @@ header {
 }
 
 .header {
-    visibility: hidden;
+    position: absolute;
 }
 
 .header.sticky {
