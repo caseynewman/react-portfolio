@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 
 export default function About() {
     return (
-        <section className='about'>
+        <section className='about-page'>
             <h1>hey there, I'm Casey</h1>
             <div className="about-content">
                 <Center>
