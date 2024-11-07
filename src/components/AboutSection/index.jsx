@@ -4,6 +4,7 @@ import { Center, Image, TagRightIcon } from '@chakra-ui/react';
 export default function AboutSection() {
     return (
         <section className="about-container">
+            <div className='about-header'>
             <h2><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
             <Image
                 boxSize='250px'
@@ -11,6 +12,7 @@ export default function AboutSection() {
                 src='/assets/casey-newman.jpg'
                 alt='Casey Newman'
             />
+            </div>
             <article className='about-section-info'>
                 <p>
                     I'm a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I also have a technical certification in Full Stack Web Development from UNC Chapel Hill.
