@@ -5,7 +5,8 @@ header {
 
 .header {
     position: absolute;
-    background-color: #e8dbd069;
+    background-color: #ecddd140;
+    backdrop-filter: blur(7px);
 }
 
 .header.sticky {
