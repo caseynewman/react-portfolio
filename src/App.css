@@ -38,7 +38,7 @@ p {
   font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  padding: 15px;
+  margin-bottom: 15px;
 }
 
 a {
@@ -64,7 +64,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: -1px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 section {
@@ -93,12 +93,13 @@ img {
 .underline {
   font-family: 'Dream Cottage';
   font-weight: 200;
-  font-size: .5em;
-  letter-spacing: -.5px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 2.5;
   text-transform: uppercase;
   border-bottom: .5px solid #1e1c1d;;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 800px) {

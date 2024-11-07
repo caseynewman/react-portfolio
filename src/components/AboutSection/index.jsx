@@ -3,18 +3,14 @@ import { Center, Image, TagRightIcon } from '@chakra-ui/react';
 
 export default function AboutSection() {
     return (
-        <section className="about">
-            <div className='casey-headshot'>
+        <section className="about-container">
+            <h2><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
             <Image
-                    // borderRadius='full'
-                    boxSize='250px'
-                    padding={5}
-                    src='/assets/casey-newman.jpg'
-                    alt='Casey Newman'
-                />
-            </div>
-            <h2><span className='underline'>Hey there,</span><br />
-                I'm Casey!</h2>
+                boxSize='250px'
+                padding={0}
+                src='/assets/casey-newman.jpg'
+                alt='Casey Newman'
+            />
             <article className='about-section-info'>
                 <p>
                     I'm a web developer, writer, and yoga teacher based in Wilmington, NC. I have a BA in Communication Studies + a Master of Letters in Creative Writing from the University of Stirling in Scotland. I also have a technical certification in Full Stack Web Development from UNC Chapel Hill.
