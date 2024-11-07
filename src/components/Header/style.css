@@ -5,6 +5,7 @@ header {
 
 .header {
     position: absolute;
+    background-color: #33333341;
 }
 
 .header.sticky {
