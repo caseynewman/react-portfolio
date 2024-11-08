@@ -1,4 +1,5 @@
 import './style.css';
+import MyButton from '../Button';
 
 export default function FeaturedWork() {
     return (
@@ -8,11 +9,14 @@ export default function FeaturedWork() {
             </div>
             <article className='featured-work'>
                 <img src='/assets/bubble-app.png'
-                alt='Bubble App'></img>
+                    alt='Bubble App'></img>
                 <img src='/assets/quiet-soul-homepage.png'
-                alt='Quiet Soul App'></img>
+                    alt='Quiet Soul App'></img>
                 <img src='/assets/weather-dashboard-screenshot.png'
-                alt='Weather Dashboard'></img>
+                    alt='Weather Dashboard'></img>
+                <MyButton>
+                    <a href='/portfolio' target='_blank'>View Portfolio</a>
+                </MyButton>
             </article>
         </section>
     )
