@@ -1,9 +1,8 @@
+import './style.css'
 import React from "react";
 import Hero from "../../components/Hero";
 import AboutSection from "../../components/AboutSection";
-import Portfolio from "../Portfolio";
-import Resume from "../Resume";
-import './style.css'
+import FeaturedWork from "../../components/FeaturedSection";
 
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
         <>
             <Hero />
             <AboutSection />
-            <Portfolio />
+            <FeaturedWork />
         </>
     )
 }

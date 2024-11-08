@@ -70,8 +70,8 @@ h2 {
 section {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 10px;
   width: 100%;
 }
 
@@ -93,12 +93,12 @@ img {
 .underline {
   font-family: 'Dream Cottage';
   font-weight: 200;
-  font-size: 18px;
-  letter-spacing: 0px;
+  font-size: 13px;
+  letter-spacing: 2px;
   line-height: 2.5;
   text-transform: uppercase;
   border-bottom: .5px solid #1e1c1d;;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
   margin-bottom: 15px;
 }
 
