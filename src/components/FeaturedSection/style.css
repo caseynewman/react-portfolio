@@ -26,5 +26,23 @@
     object-position: top;
     border-top: 1px solid #1e1c1d;
     border-bottom: 1px solid #1e1c1d;
+}
 
+@media screen and (min-width: 800px) {
+    .featured-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .featured-work img {
+        width: 60%;
+        height: 500px;
+        border: 1px solid #1e1c1d;
+    }
+
+    article {
+        width: 100%;
+    }
 }
