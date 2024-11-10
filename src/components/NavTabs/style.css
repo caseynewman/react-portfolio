@@ -11,12 +11,12 @@
 
 .nav-tabs a:hover,
 .nav-link-active {
-    font-weight: bold;
+    font-weight: 500;
     background-image: linear-gradient(120deg, #D9F743 0%, #D9F743 100%);
     background-repeat: no-repeat;
     background-size: 97% 34%;
     background-position: 0px 85%;
-    transition: .3s;
+    transition: .4s;
 }
 
 @media screen and (min-width: 800px) {
