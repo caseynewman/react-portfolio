@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     gap: 10px;
 }
 
@@ -12,14 +13,19 @@
     padding-right: 30px;
 }
 
-.featured-work {
+.image-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 50px;
 }
 
-.featured-work img {
+.featured-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
     width: 100%;
     height: 280px;
     object-fit: cover;
@@ -36,7 +42,7 @@
         position: relative;
     }
     
-    .featured-work img {
+    .image-container img {
         width: 60%;
         height: 500px;
         border: 1px solid #1e1c1d;
@@ -44,5 +50,13 @@
 
     article {
         width: 100%;
+    }
+
+    .image-container img:nth-child(2n + 1) {
+        align-self: flex-start;
+    }
+
+    .image-container img:nth-child(2n) {
+        align-self: flex-end;
     }
 }
