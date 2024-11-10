@@ -7,6 +7,10 @@
     gap: 10px;
 }
 
+/* .featured-header {
+    height: 200px;
+} */
+
 .featured-container h2 {
     justify-content: flex-start;
     padding-left: 30px;
@@ -16,13 +20,10 @@
 .image-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
-.featured-container button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+article {
+    width: 100%;
 }
 
 .image-container img {
@@ -32,6 +33,13 @@
     object-position: top;
     border-top: 1px solid #1e1c1d;
     border-bottom: 1px solid #1e1c1d;
+    margin-bottom: 50px;
+}
+
+.portfolio-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 800px) {
@@ -39,17 +47,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
     }
     
     .image-container img {
         width: 60%;
-        height: 500px;
+        height: 450px;
         border: 1px solid #1e1c1d;
-    }
-
-    article {
-        width: 100%;
+        margin-bottom: 80px;
     }
 
     .image-container img:nth-child(2n + 1) {

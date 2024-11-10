@@ -16,9 +16,11 @@ export default function FeaturedWork() {
                     <img src='/assets/weather-dashboard-screenshot.png'
                         alt='Weather Dashboard'></img>
                 </div>
-                <MyButton>
-                    <a href='/portfolio' target='_blank'>View Portfolio</a>
-                </MyButton>
+                <div className='portfolio-btn-container'>
+                    <MyButton>
+                        <a href='/portfolio' target='_blank'>View Portfolio</a>
+                    </MyButton>
+                </div>
             </article>
         </section>
     )
