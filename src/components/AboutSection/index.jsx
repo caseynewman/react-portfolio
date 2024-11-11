@@ -5,7 +5,7 @@ export default function AboutSection() {
     return (
         <section className="about-container">
             <div className='about-header'>
-            <h2><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
+            <h2 className='heading-scroll'><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
             <Image
                 boxSize='250px'
                 padding={0}
