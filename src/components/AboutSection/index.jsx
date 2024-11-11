@@ -1,17 +1,20 @@
 import './style.css';
-import { Center, Image, TagRightIcon } from '@chakra-ui/react';
+import { Image } from '@chakra-ui/react';
+import { useInView } from 'react-intersection-observer';
 
 export default function AboutSection() {
+    const { ref: headingRef, inView: headingIsVisible } = useInView();
+
     return (
         <section className="about-container">
             <div className='about-header'>
-            <h2 className='heading-scroll'><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
-            <Image
-                boxSize='250px'
-                padding={0}
-                src='/assets/casey-newman.jpg'
-                alt='Casey Newman'
-            />
+                    <h2 ref={headingRef} className={headingIsVisible ? 'heading-scroll' : ''}><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
+                <Image
+                    boxSize='250px'
+                    padding={0}
+                    src='/assets/casey-newman.jpg'
+                    alt='Casey Newman'
+                />
             </div>
             <article className='about-section-info'>
                 <p>

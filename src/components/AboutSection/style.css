@@ -18,6 +18,22 @@
     z-index: 10;
 }
 
+.heading-scroll {
+    animation: heading-animation 1.3s ease-in;
+}
+
+@keyframes heading-animation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .about-container {
         flex-direction: column;

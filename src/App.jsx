@@ -3,8 +3,6 @@ import Header from './components/Header';
 import './App.css'
 import Footer from './components/Footer';
 import { useEffect, useRef } from 'react';
-import { background } from '@chakra-ui/react';
-import { color } from 'framer-motion';
 
 function App() {
   const bgRef = useRef(null);
@@ -22,21 +20,21 @@ function App() {
     return () => {
       window.removeEventListener('mousemove', updateMousePosition);
     };
-  }, [])
+  }, []);
 
   return (
     <>
-    <div ref={bgRef} className='gradient'>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Outlet />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+      <div ref={bgRef} className='gradient'>
+        <header>
+          <Header />
+        </header>
+        <main>
+          <Outlet />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
     </>
   )
 }

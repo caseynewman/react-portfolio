@@ -67,20 +67,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.heading-scroll {
-  animation: heading-animation 1.15s ease-in;
-}
-
-@keyframes heading-animation {
-  0% {
-    transform: translateY(100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -102,10 +88,10 @@ label {
 img {
   width: 100%;
   display: block;
-  animation: image-animation 1.25s ease-in;
+  /* animation: image-animation 1.25s ease-in; */
 }
 
-@keyframes image-animation {
+/* @keyframes image-animation {
   0% {
     transform: translateX(100%);
   }
@@ -113,7 +99,7 @@ img {
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 .underline {
   font-family: 'Dream Cottage';
