@@ -3,12 +3,15 @@ import { Image } from '@chakra-ui/react';
 import { useInView } from 'react-intersection-observer';
 
 export default function AboutSection() {
-    const { ref: headingRef, inView: headingIsVisible } = useInView();
+    const { ref: headingRef, inView: headingIsVisible } = useInView({
+        triggerOnce: true,
+        rootMargin: '-100px 0px',
+    });
 
     return (
         <section className="about-container">
             <div className='about-header'>
-                    <h2 ref={headingRef} className={headingIsVisible ? 'heading-scroll' : ''}><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
+                    <h2 ref={headingRef} className={headingIsVisible ? 'heading-scroll' : 'hidden'}><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
                 <Image
                     boxSize='250px'
                     padding={0}
