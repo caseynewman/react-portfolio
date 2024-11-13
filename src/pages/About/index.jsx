@@ -22,7 +22,6 @@ export default function About() {
                     With a background in both wellness and professional writing, I strive for a holistic approach to brand growth and sustainability through development, content, and design.
                 </p>
             </div>
-
         </section>
     );
 }

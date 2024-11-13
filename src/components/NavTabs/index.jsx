@@ -6,14 +6,14 @@ function NavTabs() {
 
   return (
     <ul className="nav-tabs">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/about"
           className={currentPage === '/about' ? 'nav-link-active' : 'nav-link'}
         >
           About
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/portfolio"
