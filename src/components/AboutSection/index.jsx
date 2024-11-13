@@ -8,11 +8,15 @@ export default function AboutSection() {
         rootMargin: '-100px 0px',
     });
 
+    const { ref: imageRef, inView: imageIsVisible } = useInView({
+        triggerOnce: true,
+    });
+
     return (
         <section className="about-container">
             <div className='about-header'>
                     <h2 ref={headingRef} className={headingIsVisible ? 'heading-scroll' : 'hidden'}><span className='underline'>Hey there,</span><br /> I'm Casey!</h2>
-                <Image
+                <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'}
                     boxSize='250px'
                     padding={0}
                     src='/assets/casey-newman.jpg'

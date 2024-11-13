@@ -88,18 +88,21 @@ label {
 img {
   width: 100%;
   display: block;
-  /* animation: image-animation 1.25s ease-in; */
 }
 
-/* @keyframes image-animation {
+.image-fade-in {
+  animation: image-animation 1.5s ease-in;
+}
+
+@keyframes image-animation {
   0% {
-    transform: translateX(100%);
+    opacity: 0;
   }
 
   100% {
-    transform: translateX(0);
+    opacity: 1;
   }
-} */
+}
 
 .underline {
   font-family: 'Dream Cottage';

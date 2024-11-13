@@ -1,11 +1,16 @@
 import './style.css';
 import MyButton from '../Button';
+import { Image } from '@chakra-ui/react';
 import { useInView } from 'react-intersection-observer';
 
 export default function FeaturedWork() {
     const { ref: headingRef, inView: headingIsVisible } = useInView({
         triggerOnce: true,
         rootMargin: '-100px 0px',
+    });
+
+    const { ref: imageRef, inView: imageIsVisible } = useInView({
+        triggerOnce: true,
     });
 
     return (
@@ -15,12 +20,12 @@ export default function FeaturedWork() {
             </div>
             <article className='featured-work'>
                 <div className='image-container'>
-                    <img src='/assets/bubble-app.png'
-                        alt='Bubble App'></img>
-                    <img src='/assets/quiet-soul-homepage.png'
-                        alt='Quiet Soul App'></img>
-                    <img src='/assets/weather-dashboard-screenshot.png'
-                        alt='Weather Dashboard'></img>
+                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/bubble-app.png'
+                        alt='Bubble App'></Image>
+                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/quiet-soul-homepage.png'
+                        alt='Quiet Soul App'></Image>
+                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/weather-dashboard-screenshot.png'
+                        alt='Weather Dashboard'></Image>
                 </div>
                 <div className='portfolio-btn-container'>
                     <MyButton>
