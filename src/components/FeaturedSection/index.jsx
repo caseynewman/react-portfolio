@@ -20,11 +20,11 @@ export default function FeaturedWork() {
             </div>
             <article className='featured-work'>
                 <div className='image-container'>
-                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/bubble-app.png'
+                    <Image src='/assets/bubble-app.png'
                         alt='Bubble App'></Image>
-                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/quiet-soul-homepage.png'
+                    <Image src='/assets/quiet-soul-homepage.png'
                         alt='Quiet Soul App'></Image>
-                    <Image ref={imageRef} className={imageIsVisible ? 'image-fade-in' : 'hidden'} src='/assets/weather-dashboard-screenshot.png'
+                    <Image src='/assets/weather-dashboard-screenshot.png'
                         alt='Weather Dashboard'></Image>
                 </div>
                 <div className='portfolio-btn-container'>
