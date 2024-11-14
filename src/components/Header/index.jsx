@@ -2,16 +2,21 @@ import { Link } from "react-router-dom";
 import Navigation from "../Navigation";
 import './style.css'
 import { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 
 export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 724) {
+      if (isMobile) {
         setIsSticky(true);
-      } else {
-        setIsSticky(false);
+      } else if (!isMobile) {
+        if (window.scrollY > 724) {
+          setIsSticky(true);
+        } else {
+          setIsSticky(false);
+        }
       }
     };
 
