@@ -6,7 +6,7 @@ nav {
 }
 
 .logo {
-    max-width: 40%;
+    max-width: 100px;
     max-height: auto;
     display: flex;
     align-self: center;
@@ -15,10 +15,5 @@ nav {
 @media screen and (min-width: 800px) {
     nav {
         padding: 1rem 1rem;
-    }
-
-    .logo {
-        max-width: 100px;
-        max-height: auto;
     }
 }
