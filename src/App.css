@@ -50,10 +50,10 @@ a {
 h1 {
   font-family: 'Dream Cottage';
   font-weight: 200;
-  font-size: 2.8em;
-  letter-spacing: -.5px;
-  text-transform: none;
-  margin-top: 20px;
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  margin-top: 0px;
   margin-bottom: 10px;
   color: #1e1c1d;
 }

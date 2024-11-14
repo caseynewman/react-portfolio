@@ -21,11 +21,11 @@ export default function FeaturedWork() {
             <article className='featured-work'>
                 <div className='image-container'>
                     <Image src='/assets/bubble-app.png'
-                        alt='Bubble App'></Image>
+                        alt='Bubble App'/>
                     <Image src='/assets/quiet-soul-homepage.png'
-                        alt='Quiet Soul App'></Image>
+                        alt='Quiet Soul App'/>
                     <Image src='/assets/weather-dashboard-screenshot.png'
-                        alt='Weather Dashboard'></Image>
+                        alt='Weather Dashboard'/>
                 </div>
                 <div className='portfolio-btn-container'>
                     <MyButton>
