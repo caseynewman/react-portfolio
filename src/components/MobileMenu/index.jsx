@@ -5,14 +5,17 @@ const Ul = styled.ul`
     list-style-type: none;
     position: fixed;
     flex-flow: column nowrap;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 2;
     width: 100%;
     height: 250px;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 0;
+    top: -30px;
     right: 0;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
     transition: transform 0.3s ease-in-out;
 `;
 
