@@ -1,5 +1,6 @@
 import { useState } from "react"
 import styled from 'styled-components';
+import MobileMenu from "../MobileMenu";
 
 const StyledHamburger = styled.div`
     width: 2rem;
@@ -9,6 +10,7 @@ const StyledHamburger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    z-index: 99999;
 
     div {
         width: 23px;
@@ -36,10 +38,13 @@ export default function HamburgerIcon() {
     const [open, setOpen] = useState(false);
 
     return (
-        <StyledHamburger open={open} onClick={() => setOpen(!open)}>
-            <div />
-            <div />
-            <div />
-        </StyledHamburger>
+        <>
+            <StyledHamburger open={open} onClick={() => setOpen(!open)}>
+                <div />
+                <div />
+                <div />
+            </StyledHamburger>
+            <MobileMenu open={open} />
+        </>
     )
 }

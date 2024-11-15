@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import './style.css'
 import HamburgerIcon from '../HamburgerIcon';
+import MobileMenu from '../MobileMenu';
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -14,8 +15,9 @@ function NavTabs() {
 
   return (
     <>
-      {/* <li className='nav-menu-trigger' onClick={toggleMenu}>X</li> */}
-      <HamburgerIcon />
+      <li className='nav-menu-trigger' onClick={toggleMenu}>
+        <HamburgerIcon />
+      </li>
       <ul className={`nav-tabs ${isOpen ? 'is-open' : ''}`}>
         <li className="nav-item">
           <Link
