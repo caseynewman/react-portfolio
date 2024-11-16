@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './style.css'
 import HamburgerIcon from '../HamburgerIcon';
 import MobileMenu from '../MobileMenu';
@@ -12,6 +12,12 @@ function NavTabs() {
   const toggleMenu = () => {
     setIsOpen((open) => !open);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      setIsOpen(false);
+    }
+  }, [currentPage]);
 
   return (
     <>

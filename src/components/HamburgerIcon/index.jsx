@@ -1,6 +1,4 @@
-import { useState } from "react"
 import styled from 'styled-components';
-import MobileMenu from "../MobileMenu";
 
 const StyledHamburger = styled.div`
     width: 2rem;
@@ -35,7 +33,6 @@ const StyledHamburger = styled.div`
 `;
 
 export default function HamburgerIcon({ open, onClick }) {
-    // const [open, setOpen] = useState(false);
 
     return (
         <>
@@ -44,7 +41,6 @@ export default function HamburgerIcon({ open, onClick }) {
                 <div />
                 <div />
             </StyledHamburger>
-            {/* <MobileMenu open={open} /> */}
         </>
     )
 }
