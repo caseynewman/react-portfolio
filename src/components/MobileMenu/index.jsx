@@ -4,19 +4,20 @@ import styled from 'styled-components';
 const Ul = styled.ul`
     list-style-type: none;
     position: fixed;
-    flex-flow: column nowrap;
+    top: -30px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
     background-color: #fff;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 2;
-    width: 100%;
-    height: 250px;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: -30px;
-    right: 0;
     padding-top: 3rem;
-    transition: transform 0.3s ease-in-out;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    opacity: ${({ open }) => open ? '1' : '0'};
+    visibility: ${({ open }) => open ? 'visible' : 'hidden'};
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0s ease 0.3s;
 `;
 
 export default function MobileMenu({ open }) {

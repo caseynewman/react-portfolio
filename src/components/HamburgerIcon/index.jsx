@@ -34,17 +34,17 @@ const StyledHamburger = styled.div`
         }
 `;
 
-export default function HamburgerIcon() {
-    const [open, setOpen] = useState(false);
+export default function HamburgerIcon({ open, onClick }) {
+    // const [open, setOpen] = useState(false);
 
     return (
         <>
-            <StyledHamburger open={open} onClick={() => setOpen(!open)}>
+            <StyledHamburger open={open} onClick={onClick}>
                 <div />
                 <div />
                 <div />
             </StyledHamburger>
-            <MobileMenu open={open} />
+            {/* <MobileMenu open={open} /> */}
         </>
     )
 }

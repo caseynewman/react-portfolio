@@ -15,8 +15,8 @@ function NavTabs() {
 
   return (
     <>
-      <li className='nav-menu-trigger' onClick={toggleMenu}>
-        <HamburgerIcon />
+      <li className='nav-menu-trigger'>
+        <HamburgerIcon open={isOpen} onClick={toggleMenu} />
       </li>
       <ul className={`nav-tabs ${isOpen ? 'is-open' : ''}`}>
         <li className="nav-item">
@@ -36,6 +36,7 @@ function NavTabs() {
           </Link>
         </li>
       </ul>
+      <MobileMenu open={isOpen} />
     </>
   );
 }
