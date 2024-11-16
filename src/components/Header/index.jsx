@@ -6,23 +6,32 @@ import { isMobile } from "react-device-detect";
 
 export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
       if (isMobile) {
         setIsSticky(true);
+        setIsVisible(true);
       } else {
         const isHomePage = location.pathname === '/';
-        if (isHomePage && window.scrollY > 724) {
-          setIsSticky(true);
-        } else if (!isHomePage) {
-          setIsSticky(true);
+        if (isHomePage) {
+          if (window.scrollY > 724) {
+            setIsSticky(true);
+            setIsVisible(true);
+          } else {
+            setIsSticky(false);
+            setIsVisible(false);
+          }
         } else {
-          setIsSticky(false);
+          setIsSticky(true);
+          setIsVisible(true);
         }
       }
     };
+
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll);
 
@@ -33,12 +42,14 @@ export default function Header() {
 
   return (
     <>
-      <nav className={`header ${isSticky ? 'sticky' : ''}`}>
-        <Link to="/">
-          <img className="logo" src="/assets/cn-header-logo.svg" alt="Casey Newman" />
-        </Link>
-        <Navigation />
-      </nav>
+      {isVisible && (
+        <nav className={`header ${isSticky ? 'sticky' : ''}`}>
+          <Link to="/">
+            <img className="logo" src="/assets/cn-header-logo.svg" alt="Casey Newman" />
+          </Link>
+          <Navigation />
+        </nav>
+      )}
     </>
   );
 }
