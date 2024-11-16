@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.project-container h2 {
+    font-size: 33px;
+}
+
 .project-image {
     max-height: 300px;
 }

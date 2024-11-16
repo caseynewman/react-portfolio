@@ -13,11 +13,11 @@ footer {
 .footer-links {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .icon {
     width: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
 }

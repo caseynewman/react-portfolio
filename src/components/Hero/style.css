@@ -17,6 +17,15 @@
             #fbf6f2);
 }
 
+.hero h1 {
+    font-size: 70px;
+    letter-spacing: -3px;
+    font-weight: 200;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 .hero h2 {
     font-size: 22px;
     text-transform: uppercase;
