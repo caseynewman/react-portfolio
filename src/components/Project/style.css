@@ -1,7 +1,7 @@
 .project-container {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    max-width: 330px;
 }
 
 .project-container h2 {
@@ -11,6 +11,14 @@
 .project-image {
     max-height: 300px;
     border-bottom: 1px solid #1e1c1d;
+}
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    min-height: 430px;
 }
 
 .project-footer {
@@ -27,19 +35,23 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
+        max-width: 1100px;
+    }
+
+    .project-image {
+        min-width: 450px;
+    }
+
+    .project-body {
+        min-width: 450px;
+        padding: 20px;
     }
 
     .project-container {
         flex-direction: row;
-        justify-content: space-evenly;
-        /* max-width: 1100px; */
-        max-width: 400px;
-        min-height: 700px;
+        /* min-width: 267px; */
+        min-width: 450px !important;
         flex-wrap: wrap;
-    }
-
-    .project-body {
-        max-width: 400px;
     }
 
     .project-footer {

@@ -83,7 +83,7 @@ export default function Project() {
                     borderRadius={0}
                     border={'1px solid #1e1c1d'}
                     backgroundColor={''}
-                    align={'center'}
+                    // align={'center'}
                 >
                     <Image
                         className='project-image'
@@ -94,18 +94,22 @@ export default function Project() {
                         alt={project.altText}
                     />
                     <Stack className='project-body'>
-                        <CardBody>
+                        <CardBody
+                            padding={30}
+                            align={'left'}
+                        >
                             <h2 className='project-title' size='md'>{project.title}</h2>
                             <Text py='2'>
                                 {project.blurb}
                             </Text>
                         </CardBody>
                         <CardFooter className='project-footer'>
-                            <MyButton href={project.projectLink} target="_blank">
-                                Visit {project.title}
+                            <MyButton href={project.projectLink} target="_blank"
+                                maxW={'30%'}>
+                                {project.title}
                             </MyButton>
                             <MyButton href={project.repoLink} target="_blank">
-                                View GitHub Repo
+                                GitHub Repo
                             </MyButton>
                         </CardFooter>
                     </Stack>
