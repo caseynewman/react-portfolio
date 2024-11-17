@@ -5,6 +5,8 @@
 }
 
 .project-container h2 {
+    font-family: "freight-display-pro", serif;
+    font-weight: 300;
     font-size: 33px;
 }
 
@@ -34,6 +36,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: flex-start;
         gap: 30px;
         max-width: 1100px;
     }
@@ -48,6 +51,7 @@
     }
 
     .project-container {
+        flex: 1;
         flex-direction: row;
         /* min-width: 267px; */
         min-width: 450px !important;

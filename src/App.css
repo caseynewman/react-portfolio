@@ -6,7 +6,7 @@ html,
 body {
   height: 100%;
   color: #1e1c1d;
-  background-color: #fbf6f2;
+  background-color: #fffdf8;
 }
 
 body {
@@ -49,8 +49,9 @@ a {
 }
 
 h1 {
-  font-family: 'Dream Cottage';
-  font-weight: 200;
+  /* font-family: 'Dream Cottage'; */
+  font-family: "freight-display-pro", serif;
+  font-weight: 300;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -62,7 +63,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 3em;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: -1px;
@@ -108,7 +109,7 @@ img {
 }
 
 .underline {
-  font-family: 'Dream Cottage';
+  font-family: "freight-display-pro", serif;
   font-weight: 200;
   font-size: 13px;
   letter-spacing: 2px;
@@ -136,10 +137,10 @@ img {
 
 @media screen and (min-width: 800px) {
   body {
-    font-size: 15px;
+    font-size: .9em;
   }
 
   h2 {
-    font-size: 70px;
+    font-size: 4em;
   }
 }
