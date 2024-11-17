@@ -71,25 +71,25 @@ const projectList = [
 export default function Project() {
 
     return (
-        <>
+        <section className='project-section'>
             {projectList.map((project) => (
                 <Card className='project-container'
                     key={project.id}
-                    direction={{ base: 'column', sm: 'row' }}
+                    // direction={{ base: 'column', sm: 'row' }}
                     overflow='hidden'
                     variant='outline'
                     marginTop={5}
                     marginBottom={5}
                     borderRadius={0}
                     border={'1px solid #1e1c1d'}
-                    backgroundColor={'#c7beb1'}
+                    backgroundColor={''}
                     align={'center'}
                 >
                     <Image
                         className='project-image'
                         objectFit='cover'
                         boxSize={400}
-                        maxW={{ base: '100%', sm: '400px' }}
+                        maxW={{ base: '100%', sm: '100%' }}
                         src={project.imagePath}
                         alt={project.altText}
                     />
@@ -111,6 +111,6 @@ export default function Project() {
                     </Stack>
                 </Card>
             ))}
-        </>
+        </section>
     );
 }
