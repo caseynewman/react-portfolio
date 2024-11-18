@@ -20,8 +20,7 @@ export default function Resume() {
           <li>MongoDB</li>
         </ul>
         <p>Click below to view my resume.</p>
-        <MyButton>
-          <a href='/assets/casey-newman-resume.png' target='_blank'>Download Resume</a>
+        <MyButton href='/assets/casey-newman-resume.png' target='_blank'>Download Resume
         </MyButton>
       </div>
     </section>

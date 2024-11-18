@@ -31,10 +31,8 @@ export default function FeaturedWork() {
                         alt='Weather Dashboard' />
                 </div>
                 <div className='portfolio-btn-container'>
-                    <MyButton>
-                        <Link to="/portfolio">
+                    <MyButton to="/portfolio">
                             View Portfolio
-                        </Link>
                     </MyButton>
                 </div>
             </article>
