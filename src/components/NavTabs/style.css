@@ -2,10 +2,6 @@
     display: none;
 }
 
-/* .is-open {
-    display: block;
-} */
-
 .nav-menu-trigger {
     display: flex;
     justify-content: center;

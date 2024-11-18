@@ -49,7 +49,6 @@ a {
 }
 
 h1 {
-  /* font-family: 'Dream Cottage'; */
   font-family: "freight-display-pro", serif;
   font-weight: 300;
   font-size: 50px;
@@ -65,8 +64,10 @@ h2 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 3em;
   text-transform: uppercase;
+  line-height: 1.2;
   font-weight: 400;
   letter-spacing: -1px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -87,6 +88,22 @@ label {
 ::placeholder {
   font-family: 'Nunito', Helvetica, Arial, sans-serif;
   font-size: .9em
+}
+
+.heading-scroll {
+  animation: heading-animation 1.3s ease-in;
+}
+
+@keyframes heading-animation {
+  0% {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
 }
 
 img {
@@ -111,13 +128,12 @@ img {
 .underline {
   font-family: "freight-display-pro", serif;
   font-weight: 200;
-  font-size: 13px;
+  font-size: .3em;
   letter-spacing: 2px;
-  line-height: 2.5;
+  line-height: 4;
   text-transform: uppercase;
   border-bottom: .5px solid #1e1c1d;
-  padding-bottom: 4px;
-  margin-bottom: 15px;
+  padding-bottom: 3px;
   /* animation: underline-animation .5s ease-in !important; */
 }
 

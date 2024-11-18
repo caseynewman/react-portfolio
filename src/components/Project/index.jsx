@@ -105,7 +105,7 @@ export default function Project() {
                         </CardBody>
                         <CardFooter className='project-footer'>
                             <MyButton href={project.projectLink} target="_blank"
-                                maxW={'30%'}>
+                            >
                                 {project.title}
                             </MyButton>
                             <MyButton href={project.repoLink} target="_blank">
