@@ -5,12 +5,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #7B786B;
+    background-color: #CAA19C;
     gap: 10px;
-}
-
-.about-container p {
-    color: #fff;
 }
 
 .about-container img {
