@@ -96,13 +96,13 @@ label {
 
 @keyframes heading-animation {
   0% {
-      transform: translateY(100%);
-      opacity: 0;
+    transform: translateY(100%);
+    opacity: 0;
   }
 
   100% {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
@@ -134,16 +134,18 @@ img {
   text-transform: uppercase;
   border-bottom: .5px solid #1e1c1d;
   padding-bottom: 3px;
-  /* animation: underline-animation .5s ease-in !important; */
+  /* animation: underline-animation 3s ease-in !important; */
 }
 
 /* @keyframes underline-animation {
   0% {
-    transform: translateY(70%);
+    transform: translateY(100%);
+    opacity: 0;
   }
 
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 } */
 
