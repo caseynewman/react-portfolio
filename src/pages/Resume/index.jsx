@@ -19,7 +19,7 @@ export default function Resume() {
           <li>Mongoose</li>
           <li>MongoDB</li>
         </ul>
-        <p>Check out my resume for more information!</p>
+        <p>Click below to view my resume.</p>
         <MyButton>
           <a href='/assets/casey-newman-resume.png' target='_blank'>Download Resume</a>
         </MyButton>
