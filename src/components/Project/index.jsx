@@ -5,7 +5,7 @@ import './style.css'
 const projectList = [
     {
         title: 'Bubble App',
-        blurb: 'This is a full-stack social media application emphasizing minimilistic functionality and expression. It uses React, GraphQL, and MongoDB.',
+        blurb: 'This is a full-stack social media application emphasizing minimalistic functionality and expression. It uses React, GraphQL, and MongoDB.',
         imagePath: '/assets/bubble-app.png',
         altText: 'Bubble App',
         projectLink: 'https://bubblesocial.netlify.app/',
