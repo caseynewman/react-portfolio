@@ -5,7 +5,6 @@ header {
 
 .header {
     position: relative;
-    background-color: #ecddd140;
     backdrop-filter: blur(7px);
 }
 

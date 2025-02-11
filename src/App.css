@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
+  --main-bg-color: #fff;
+  --secondary-bg-color: #fff1e6;
+  --tertiary-bg-color: #e6ecff;
 }
 
 html,
 body {
   height: 100%;
-  color: #1e1c1d;
-  background-color: #fff;
+  color: #474642;
+  background-color: var(--main-bg-color);
 }
 
 body {
