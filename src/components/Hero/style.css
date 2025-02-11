@@ -12,9 +12,9 @@
     height: 100vh;
     width: 100%;
     background-image: radial-gradient(circle farthest-side at 100px 330px,
-            #caa19cd6 0%,
+            #e6ecff 0%,
             transparent 70%,
-            #fff9f2);
+            #fff);
 }
 
 .hero h1 {
@@ -31,7 +31,7 @@
     font-weight: 300;
     letter-spacing: 3px;
     margin: 10px;
-    color: #AB482D;
+    color: #474642;
 }
 
 @media screen and (min-width: 800px) {
@@ -39,9 +39,9 @@
         height: 100vh;
         width: 100%;
         background-image: radial-gradient(circle farthest-side at var(--x, 150px) var(--y, 100px),
-                #caa19cd6 0%,
+                #e6ecff 0%,
                 transparent 50%,
-                #fff9f2);
+                #fff);
     }
 
     .hero h1 {
