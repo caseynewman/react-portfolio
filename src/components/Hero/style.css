@@ -12,26 +12,30 @@
     height: 100vh;
     width: 100%;
     background-image: radial-gradient(circle farthest-side at 100px 330px,
-            #e6ecff 0%,
-            transparent 70%,
+            #E6ECFF 0%,
+            transparent 80%,
             #fff);
 }
 
 .hero h1 {
-    font-size: 4.5rem;
+    font-size: 4.7rem;
     font-weight: 300;
-    line-height: 1;
+    line-height: .9;
+    font-style: italic;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #B8C9FF;
+    z-index: 1;
 }
 
 .hero h2 {
-    font-size: 22px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 3px;
+    line-height: 1.35;
+    letter-spacing: 2px;
     margin: 10px;
-    color: #474642;
+    color: var(--medium-font-color);
 }
 
 @media screen and (min-width: 800px) {
@@ -39,16 +43,18 @@
         height: 100vh;
         width: 100%;
         background-image: radial-gradient(circle farthest-side at var(--x, 150px) var(--y, 100px),
-                #e6ecff 0%,
+                #E6ECFF 0%,
                 transparent 50%,
                 #fff);
     }
 
     .hero h1 {
-        font-size: 9rem;
+        font-size: 7rem;
+        line-height: 1;
     }
 
     .hero h2 {
-        font-size: 30px;
+        font-size: 29px;
+        line-height: 1.5;
     }
 }
