@@ -45,7 +45,7 @@ export default function Header() {
       {isVisible && (
         <nav className={`header ${isSticky ? 'sticky' : ''}`}>
           <Link to="/">
-            <img className="logo" src="/assets/cn-header-logo.svg" alt="Casey Newman" />
+            <img className="logo" src="/assets/flowers-accent.svg" alt="Casey Newman" />
           </Link>
           <Navigation />
         </nav>

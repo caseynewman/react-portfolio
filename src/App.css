@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
   --body-font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  --body-font-color: #474642;
   --main-bg-color: #fff;
   --secondary-bg-color: #fff1e6;
   --tertiary-bg-color: #ddd2dd92;
+  --purple-accent: #ddd2dd;
 }
 
 html,
 body {
   height: 100%;
-  color: #474642;
+  color: var(--body-font-color);
   background-color: var(--main-bg-color);
 }
 
@@ -66,7 +68,7 @@ h1 {
   line-height: 1.2;
   padding-top: 44px;
   margin: 20px;
-  color: #1e1c1d;
+  color: var(--body-font-color);
 }
 
 h2 {

@@ -6,8 +6,8 @@ nav {
 }
 
 .logo {
-    max-width: 100px;
-    max-height: auto;
+    max-width: auto;
+    max-height: 50px;
     display: flex;
     align-self: center;
 }

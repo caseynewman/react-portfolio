@@ -2,18 +2,18 @@
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    background-color: #AB482D;
+    background-color: var(--purple-accent);
     color: #fff !important;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .8em;
     font-weight: 400;
-    border-radius: 0px;
+    border-radius: 10px;
     border: 1px solid #1e1c1d;
     width: 18vw;
     min-width: 187px;
-    height: 5vh;
+    height: 6vh;
     cursor: pointer;
     margin: 5px;
 }
