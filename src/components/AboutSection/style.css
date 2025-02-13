@@ -24,6 +24,14 @@ section.about-container {
     z-index: 10;
 }
 
+.about-section-info {
+    width: 17.5em;
+}
+
+.about-section-info p {
+    text-align: center;
+}
+
 @media screen and (min-width: 800px) {
     .about-container {
         flex-direction: column;
