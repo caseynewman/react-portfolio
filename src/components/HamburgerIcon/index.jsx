@@ -13,7 +13,7 @@ const StyledHamburger = styled.div`
     div {
         width: 23px;
         height: 1px;
-        background-color: ${({ open }) => open ? '#AB482D' : '#AB482D'};
+        background-color: ${({ open }) => open ? '#272727' : '#272727'};
         border-radius: 1px;
         transform-origin: 1px;
         transition: all .2s linear;
