@@ -2,15 +2,15 @@
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    background-color: var(--purple-accent);
-    color: #fff !important;
+    background-color: var(--green);
+    color: var(--dark-font-color) !important;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .8em;
     font-weight: 400;
     border-radius: 10px;
-    border: 1px solid #1e1c1d;
+    border: none;
     width: 18vw;
     min-width: 187px;
     height: 6vh;
@@ -23,8 +23,8 @@
 }
 
 .my-button:hover {
-    color: #000 !important;
-    background-color: #C17C3E;
+    color: var(--dark-font-color) !important;
+    background-color: var(--light-green-accent);
     font-weight: 500;
     transition: .5s;
 }

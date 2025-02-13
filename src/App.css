@@ -5,9 +5,12 @@
   --dark-font-color: #272727;
   --medium-font-color: #474642;
   --main-bg-color: #fff;
-  --secondary-bg-color: #F5E3F5;
-  --tertiary-bg-color: #E6ECFF;
+  --pink: #F5E3F5;
+  --light-blue: #E6ECFF;
   --purple-accent: #ddd2dd;
+  --light-green-accent: #F2F9C6;
+  --blue-heading: #B8C9FF;
+  --green: #dae1ad;
 }
 
 html,
@@ -75,6 +78,7 @@ h1 {
 
 h2 {
   font-family: var(--body-font-family);
+  color: var(--dark-font-color);
   font-size: 3em;
   text-transform: uppercase;
   line-height: 1.2;
