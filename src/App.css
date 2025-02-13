@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
   --body-font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  --emphasis-font-family: 'Cherolina', serif;
   --dark-font-color: #272727;
   --medium-font-color: #474642;
   --main-bg-color: #fff;
-  --secondary-bg-color: #fff1e6;
-  --tertiary-bg-color: #ddd2dd92;
+  --secondary-bg-color: #F5E3F5;
+  --tertiary-bg-color: #E6ECFF;
   --purple-accent: #ddd2dd;
 }
 
@@ -138,14 +139,14 @@ img {
 }
 
 .underline {
-  font-family: "freight-display-pro", serif;
+  font-family: var(--emphasis-font-family);
   font-weight: 200;
-  font-size: .3em;
-  letter-spacing: 2px;
-  line-height: 4;
-  text-transform: uppercase;
-  border-bottom: .5px solid #1e1c1d;
-  padding-bottom: 3px;
+  font-size: 1em;
+  letter-spacing: 0px;
+  line-height: .5;
+  text-transform: lowercase;
+  /* border-bottom: .5px solid var(--dark-font-color); */
+  padding-bottom: 0;
   /* animation: underline-animation 3s ease-in !important; */
 }
 
