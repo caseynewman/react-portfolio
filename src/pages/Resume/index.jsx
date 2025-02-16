@@ -4,7 +4,7 @@ import './style.css'
 export default function Resume() {
   return (
     <section className='resume'>
-      <h1>resume</h1>
+      <h1>technical skills</h1>
       <div className="resume-content">
         <h2>Skills + Proficiencies</h2>
         <ul>
@@ -19,9 +19,9 @@ export default function Resume() {
           <li>Mongoose</li>
           <li>MongoDB</li>
         </ul>
-        <p>Click below to view my resume.</p>
+        {/* <p>Click below to view my resume.</p>
         <MyButton href='/assets/casey-newman-resume.png' target='_blank'>Download Resume
-        </MyButton>
+        </MyButton> */}
       </div>
     </section>
   );

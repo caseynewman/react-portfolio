@@ -38,7 +38,7 @@ function NavTabs() {
             to="/resume"
             className={currentPage === '/resume' ? 'nav-link-active' : 'nav-link'}
           >
-            Resume
+            Tech Stack
           </Link>
         </li>
       </ul>
