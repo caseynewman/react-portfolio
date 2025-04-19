@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  --body-font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  --emphasis-font-family: 'Cherolina', serif;
+  --body-font-family: Helvetica, Arial, sans-serif;
+  --emphasis-font-family: 'DM Serif Display', serif;
   --dark-font-color: #272727;
   --medium-font-color: #474642;
   --main-bg-color: #fff;
@@ -146,8 +146,9 @@ img {
 
 .underline {
   font-family: var(--emphasis-font-family);
-  font-weight: 200;
-  font-size: 1em;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.1rem;
   letter-spacing: 0px;
   line-height: .5;
   text-transform: lowercase;
