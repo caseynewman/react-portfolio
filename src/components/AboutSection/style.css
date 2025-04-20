@@ -48,12 +48,12 @@ section.about-container {
 
     .about-container h2 {
         top: 100px;
-        left: 75px;
+        left: 50px;
         position: relative;
     }
 
     .about-container img {
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
         right: 50px;
     }
