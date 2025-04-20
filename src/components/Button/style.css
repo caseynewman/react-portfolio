@@ -24,7 +24,7 @@
 
 .my-button:hover {
     color: var(--dark-font-color) !important;
-    background-color: var(--light-green-accent);
+    background-color: var(--green-hover);
     font-weight: 500;
     transition: .5s;
 }
