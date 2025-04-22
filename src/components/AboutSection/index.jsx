@@ -1,6 +1,7 @@
 import './style.css';
 import { Image } from '@chakra-ui/react';
 import { useInView } from 'react-intersection-observer';
+import MyButton from '../Button';
 
 export default function AboutSection() {
     const { ref: headingRef, inView: headingIsVisible } = useInView({
@@ -30,6 +31,11 @@ export default function AboutSection() {
                     With a background in both wellness and professional writing, I strive for a holistic approach to brand growth and sustainability through development, content, and design.
                 </p>
             </article>
+            <div className='about-btn-container'>
+                    <MyButton to="/portfolio">
+                            View My Work
+                    </MyButton>
+                </div>
         </section>
     )
 }

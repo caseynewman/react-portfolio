@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--pink);
-    gap: 10px;
+    gap: 20px;
 }
 
 section.about-container {
@@ -55,7 +55,7 @@ section.about-container {
     }
 
     .about-container h2 {
-        top: 100px;
+        top: 5px;
         left: 50px;
         position: relative;
     }
