@@ -19,9 +19,9 @@
 
 .hero h1 {
     font-family: 'DM Serif Display', serif;
-    font-size: 4.7rem;
+    font-size: 4.7rem !important;
     font-weight: 300;
-    line-height: .9;
+    line-height: .9 !important;
     letter-spacing: -2px;
     font-style: italic;
     text-transform: none;
@@ -35,7 +35,7 @@
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 300;
-    line-height: 1.35;
+    line-height: 1.35 !important;
     letter-spacing: 2px;
     margin: 10px;
 }
@@ -51,12 +51,12 @@
     }
 
     .hero h1 {
-        font-size: 7rem;
+        font-size: 7rem !important;
         line-height: 1;
     }
 
     .hero h2 {
         font-size: 29px;
-        line-height: 1.5;
+        line-height: 1.5 !important;
     }
 }
