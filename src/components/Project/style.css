@@ -37,16 +37,16 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        gap: 30px;
+        gap: 40px;
         max-width: 1100px;
     }
 
-    .project-image {
+    /* .project-image {
         min-width: 450px;
-    }
+    } */
 
     .project-body {
-        min-width: 450px;
+        /* min-width: 450px; */
         padding: 20px;
     }
 
@@ -54,7 +54,7 @@
         flex: 1;
         flex-direction: row;
         /* min-width: 267px; */
-        min-width: 450px !important;
+        min-width: 400px !important;
         flex-wrap: wrap;
     }
 
