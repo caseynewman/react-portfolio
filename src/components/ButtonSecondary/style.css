@@ -1,0 +1,35 @@
+.secondary-button {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: var(--purple-accent);
+    color: var(--dark-font-color) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    font-weight: 400;
+    border-radius: 30px;
+    border: 1px solid var(--dark-font-color);
+    width: 15vw;
+    min-width: 150px;
+    height: 6vh;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.secondary-button a {
+    color: #fff !important;
+}
+
+.secondary-button:hover {
+    color: var(--dark-font-color) !important;
+    background-color: var(--green-hover);
+    font-weight: 500;
+    transition: .5s;
+}
+
+.secondary-button:hover a {
+    color: #000 !important;
+    font-weight: 500;
+}

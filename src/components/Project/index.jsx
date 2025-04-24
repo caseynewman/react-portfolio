@@ -1,6 +1,7 @@
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button, Text } from '@chakra-ui/react'
 import MyButton from '../Button'
 import './style.css'
+import SecondaryButton from '../ButtonSecondary';
 
 const projectList = [
     {
@@ -104,13 +105,13 @@ export default function Project() {
                             </Text>
                         </CardBody>
                         <CardFooter className='project-footer'>
-                            <MyButton href={project.projectLink} target="_blank"
+                            <SecondaryButton href={project.projectLink} target="_blank"
                             >
                                 {project.title}
-                            </MyButton>
-                            <MyButton href={project.repoLink} target="_blank">
+                            </SecondaryButton>
+                            <SecondaryButton href={project.repoLink} target="_blank">
                                 GitHub Repo
-                            </MyButton>
+                            </SecondaryButton>
                         </CardFooter>
                     </Stack>
                 </Card>
