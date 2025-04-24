@@ -81,7 +81,7 @@ export default function Project() {
                     variant='outline'
                     marginTop={5}
                     marginBottom={5}
-                    borderRadius={0}
+                    borderRadius={35}
                     border={'1px solid #1e1c1d'}
                     backgroundColor={''}
                     // align={'center'}
