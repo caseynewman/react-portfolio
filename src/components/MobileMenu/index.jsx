@@ -26,7 +26,7 @@ export default function MobileMenu({ open }) {
     return (
         <Ul className='mobile-menu' open={open}>
             <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
+            <li><Link to="/resume">Tech Stack</Link></li>
         </Ul>
     )
 }
