@@ -70,7 +70,7 @@ a {
 h1 {
   font-family: var(--body-font-family);
   font-weight: 400;
-  font-size: 4em;
+  font-size: 3.5em;
   text-transform: uppercase;
   letter-spacing: -1px;
   line-height: 1.2;
@@ -175,6 +175,10 @@ img {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4.3em;
+  }
+
   h2 {
     font-size: 4em;
   }
