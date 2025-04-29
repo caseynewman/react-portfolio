@@ -97,6 +97,7 @@ export default function Project() {
                     <Stack className='project-body'>
                         <CardBody
                             padding={30}
+                            paddingBottom={0}
                             align={'left'}
                         >
                             <h2 className='project-title' size='md'>{project.title}</h2>
